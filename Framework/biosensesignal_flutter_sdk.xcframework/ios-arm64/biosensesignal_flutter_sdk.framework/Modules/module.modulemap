@@ -1,0 +1,11 @@
+framework module biosensesignal_flutter_sdk {
+  umbrella header "biosensesignal_flutter_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module biosensesignal_flutter_sdk.Swift {
+  header "biosensesignal_flutter_sdk-Swift.h"
+  requires objc
+}
